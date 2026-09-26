@@ -3,8 +3,9 @@ fn main() {
 
     let _x = 5;
     let _y = 10;
+    let mut _z = 100.0;
 
-    println!("{} {}", _x, _y);
+    println!("{} {} {}", _x, _y, _z);
 
     let greetings = String::from("Hello, Rust!");
     println!(" {}", greetings);
